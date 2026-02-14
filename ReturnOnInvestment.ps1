@@ -6,10 +6,10 @@ Calculates Return on investment (ROI).
 Computes the percentage returned based on an initial investment and the current investment value.
 
 .PARAMETER InitialInvestment
-The starting investment amount. Must be greater than 0.
+The starting investment amount. Must be greater than $0.01
 
 .PARAMETER InvestmentCurrentValue
-The current value of the investment. Must be greater than or equal to 0.
+The current value of the investment. Must be greater than or equal to $0.00
 
 .EXAMPLE
 .\ReturnOnInvestment.ps1 -InitialInvestment 100 -InvestmentCurrentValue 110
